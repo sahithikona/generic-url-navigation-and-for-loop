@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1> name of the actor is {{name}}</h1>
+<h2> age of the actor is {{age}}</h2>
+<h3>movies he has acted in are:</h3>
+{% for m in movies %}
+<h4>{{m}}</h4>
+{% endfor %}
+<a href="{% url 'loopstatements' %}"<h1>click here for ramcharan info</h1>
+</body>
+</html>
